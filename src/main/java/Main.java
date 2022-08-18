@@ -17,6 +17,11 @@ public class Main {
         System.out.println(customer1.getWallet());
         System.out.println(gallery1.getTill());
 
+        customer1.getArtworks();
+        gallery1.getArtworks();
+
+        System.out.println(gallery1.stockTake());
+
 
 
 
