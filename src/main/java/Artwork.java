@@ -1,11 +1,11 @@
 public class Artwork {
 
     private String title;
-    private String artist;
+    private Artist artist;
     private double price;
     private int nft;
 
-    public Artwork(String title,String artist,double price,int nft){
+    public Artwork(String title,Artist artist,double price,int nft){
         this.title = title;
         this.artist = artist;
         this.price = price;
@@ -16,7 +16,7 @@ public class Artwork {
         return title;
     }
 
-    public String getArtist(){
+    public Artist getArtist(){
         return artist;
     }
 
